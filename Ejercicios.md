@@ -2,7 +2,7 @@
 
 ## Situación 1
 
-![Caso 1](Diagrama 1.png)
+![Caso 1](./Imagenes/Diagrama 1.png)
 
 ### Planteamiento
 
