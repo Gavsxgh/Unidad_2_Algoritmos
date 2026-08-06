@@ -18,7 +18,7 @@ El algoritmo comienza solicitando el ID del empleado y los seis sueldos correspo
 
 ## Situación 2
 
-![Situación 2](imagen2.jpg)
+![Situación 2](./Imagenes/Diagrama2.png)
 
 ### Ejercicio planteado
 
