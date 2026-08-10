@@ -77,7 +77,7 @@ Finalmente, muestra el **ID del empleado**, el **ingreso total semestral** y el 
 El algoritmo recibe como datos la fecha de nacimiento de una persona (año, mes y día) y la fecha actual. Primero calcula una edad preliminar restando el año de nacimiento al año actual. Luego compara el mes actual con el mes de nacimiento para determinar si el cumpleaños ya ocurrió durante el año en curso. Si el mes actual es mayor que el mes de nacimiento, se considera que la persona ya cumplió años y se muestra la edad calculada. En caso contrario, se verifica si el día actual es igual o mayor que el día de nacimiento. Si esta condición se cumple, también se considera que ya cumplió años; de lo contrario, se indica que aún no ha cumplido años. Finalmente, el algoritmo muestra el resultado correspondiente y termina su ejecución.
 
 ---
-i### 🖼️  Diagrama de Flujo
+### 🖼️  Diagrama de Flujo
 
 <div align="center">
 
@@ -159,3 +159,44 @@ i### 🖼️  Diagrama de Flujo
 | Unidad de medida | - | - | - |
 
 ---
+
+### 📝 Ejercicio 1
+
+***Problema:***
+
+- Realice un algoritmo para determinar cuánto se debe pagar por equis cantidad de lápices considerando que si son 1000 o más el costo es de $85 cada uno; de lo contrario, el precio es de $90. Represéntelo con el pseudocódigo y el diagrama de flujo
+---
+
+### ✅ Solución
+
+- Para resolver el problema, se solicita al usuario la cantidad de lápices que desea comprar. El algoritmo verifica si la cantidad es mayor o igual a 1000 unidades; en ese caso, asigna un precio de $85 por lápiz. De lo contrario, asigna un precio de $90 por lápiz. Finalmente, calcula el total a pagar multiplicando la cantidad de lápices por el precio correspondiente y muestra el resultado.
+
+---
+
+### 🖼️    Diagrama de Flujo
+
+<div align="center">
+
+![Ej 2](./Imagenes/Diagrama4.png)
+
+
+</div>
+
+---
+
+### 📊 Datos de Entrada
+
+| NOMBRE | DEFINICIÓN | TIPO | UNIDAD |
+|---------|------------|------|---------|
+| Cantidad_Lapices | Numero de lapices | entero | - |
+
+---
+
+### 📊 Datos de Salida
+
+| NOMBRE | DEFINICIÓN | TIPO | UNIDAD |
+|---------|------------|------|---------|
+| TotalPagar | - | Flotante | $ |
+
+---
+
