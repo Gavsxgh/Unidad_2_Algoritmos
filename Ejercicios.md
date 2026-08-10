@@ -3,15 +3,6 @@
 ---
 
 ## 📌 Situación 1
-
-### 🖼️ Diagrama de Flujo
-
-<div align="center">
-
-![Caso 1](./Imagenes/Diagrama1.png)
-
-</div>
-
 ---
 
 ### 📝 Planteamiento
@@ -36,24 +27,23 @@ Finalmente, muestra el **ID del empleado**, el **ingreso total semestral** y el 
 
 ---
 
+### 🖼️  Diagrama de Flujo
+
+<div align="center">
+
+![Caso 1](./Imagenes/Diagrama1.png)
+
+</div>
+
+---
+
 ### 📊 Datos de Entrada
 
-<<<<<<< HEAD
-![Situación 2](./Imagenes/Diagrama2.png)
-
-### Ejercicio planteado
-
-> Aquí puedes pegar o escribir el texto correspondiente a la situación o ejercicio planteado.
-
-### Breve descripción de la solución
-
-Escribe aquí una breve explicación de la solución propuesta.
 =======
 | NOMBRE | DEFINICIÓN | TIPO | UNIDAD |
 |---------|------------|------|---------|
 | ID | | Entero | - |
 | S1-S6 | | Real | $ |
->>>>>>> 171399284513d2c32e2a86bd27791092e9729928
 
 ---
 
@@ -66,15 +56,9 @@ Escribe aquí una breve explicación de la solución propuesta.
 | PM | | Real | $ |
 
 ---
+---
+
 ## 📌 Situación 2
-
-### 🖼️ Diagrama de Flujo
-
-<div align="center">
-
-![Caso 1](./Imagenes/Diagrama2.png)
-
-</div>
 
 ---
 
@@ -92,6 +76,15 @@ Escribe aquí una breve explicación de la solución propuesta.
 
 El algoritmo recibe como datos la fecha de nacimiento de una persona (año, mes y día) y la fecha actual. Primero calcula una edad preliminar restando el año de nacimiento al año actual. Luego compara el mes actual con el mes de nacimiento para determinar si el cumpleaños ya ocurrió durante el año en curso. Si el mes actual es mayor que el mes de nacimiento, se considera que la persona ya cumplió años y se muestra la edad calculada. En caso contrario, se verifica si el día actual es igual o mayor que el día de nacimiento. Si esta condición se cumple, también se considera que ya cumplió años; de lo contrario, se indica que aún no ha cumplido años. Finalmente, el algoritmo muestra el resultado correspondiente y termina su ejecución.
 
+---
+### 🖼️  Diagrama de Flujo
+
+<div align="center">
+
+![Situación 2](./Imagenes/Diagrama2.png)
+
+
+</div>
 ---
 
 ### 📊 Datos de Entrada
