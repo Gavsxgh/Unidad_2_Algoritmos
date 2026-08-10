@@ -2,7 +2,7 @@
 
 ---
 
-## 📌 Situación 1
+## 📌 Situación/Ejemplo 1
 ---
 
 ### 📝 Planteamiento
@@ -39,7 +39,6 @@ Finalmente, muestra el **ID del empleado**, el **ingreso total semestral** y el 
 
 ### 📊 Datos de Entrada
 
-=======
 | NOMBRE | DEFINICIÓN | TIPO | UNIDAD |
 |---------|------------|------|---------|
 | ID | | Entero | - |
@@ -56,9 +55,10 @@ Finalmente, muestra el **ID del empleado**, el **ingreso total semestral** y el 
 | PM | | Real | $ |
 
 ---
----
 
-## 📌 Situación 2
+
+
+## 📌 Situación/Ejemplo 2
 
 ---
 
@@ -77,7 +77,7 @@ Finalmente, muestra el **ID del empleado**, el **ingreso total semestral** y el 
 El algoritmo recibe como datos la fecha de nacimiento de una persona (año, mes y día) y la fecha actual. Primero calcula una edad preliminar restando el año de nacimiento al año actual. Luego compara el mes actual con el mes de nacimiento para determinar si el cumpleaños ya ocurrió durante el año en curso. Si el mes actual es mayor que el mes de nacimiento, se considera que la persona ya cumplió años y se muestra la edad calculada. En caso contrario, se verifica si el día actual es igual o mayor que el día de nacimiento. Si esta condición se cumple, también se considera que ya cumplió años; de lo contrario, se indica que aún no ha cumplido años. Finalmente, el algoritmo muestra el resultado correspondiente y termina su ejecución.
 
 ---
-### 🖼️  Diagrama de Flujo
+i### 🖼️  Diagrama de Flujo
 
 <div align="center">
 
@@ -85,6 +85,7 @@ El algoritmo recibe como datos la fecha de nacimiento de una persona (año, mes 
 
 
 </div>
+
 ---
 
 ### 📊 Datos de Entrada
@@ -108,3 +109,53 @@ El algoritmo recibe como datos la fecha de nacimiento de una persona (año, mes 
 
 ---
 
+
+
+# 📖Ejercicios de pactica
+
+---
+
+### 📝 Ejercicio 1
+
+***Problema:***
+
+- Un acuario necesita determinar cuántos litros o galones (eso lo decide el usuario) de agua caben en un acuario, pero solo dispone de una cinta métrica (en centímetros). Diseña un algoritmo para solucionar el problema. 
+
+---
+
+### ✅ Solución
+
+- Para resolver el problema, se utilizan como datos de entrada las dimensiones del acuario medidas en centímetros (largo, ancho y alto) y la unidad en la que el usuario desea obtener el resultado (litros o galones). Con estas medidas se calcula el volumen del acuario y se convierte a litros. Si el usuario solicita el resultado en galones, se realiza la conversión correspondiente. Finalmente, el algoritmo muestra la capacidad total del acuario en la unidad seleccionada.
+
+---
+
+### 🖼️   Diagrama de Flujo
+
+<div align="center">
+
+![Ej 1](./Imagenes/Diagrama3.png)
+
+
+</div>
+
+---
+
+### 📊 Datos de Entrada
+
+| NOMBRE | DEFINICIÓN | TIPO | UNIDAD |
+|---------|------------|------|---------|
+| FormaTnq | La forma del tanque | Flotante | - |
+| Largo | - | Entero | cm |
+| Alto | - | Entero | cm |
+| Ancho | - | Entero | cm |
+
+---
+
+### 📊 Datos de Salida
+
+| NOMBRE | DEFINICIÓN | TIPO | UNIDAD |
+|---------|------------|------|---------|
+| Capacidad del Acuario | - | - | - |
+| Unidad de medida | - | - | - |
+
+---
