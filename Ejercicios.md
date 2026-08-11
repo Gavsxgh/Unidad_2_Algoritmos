@@ -29,9 +29,6 @@
 ---
 
 ### 📝 Planteamiento
-
-> [!NOTE]
->
 > Analicemos el siguiente problema y representemos su solución mediante un algoritmo secuencial.
 
 **Problema:**
@@ -42,8 +39,6 @@
 
 ### ✅ Solución
 
-> [!TIP]
->
 > El algoritmo comienza solicitando el **ID del empleado** y los seis sueldos correspondientes al primer semestre del año (**S1, S2, S3, S4, S5 y S6**).
 >
 > A continuación, suma los seis salarios para obtener el **Ingreso Total (IT)** del semestre.
@@ -90,9 +85,6 @@
 ---
 
 ### 📝 Planteamiento
-
-> [!NOTE]
->
 > Analicemos el siguiente problema y representemos su solución mediante un algoritmo secuencial.
 
 **Problema:**
@@ -103,8 +95,6 @@
 
 ### ✅ Solución
 
-> [!TIP]
->
 > El algoritmo recibe como datos la fecha de nacimiento de una persona (año, mes y día) y la fecha actual.
 >
 > Primero calcula una edad preliminar restando el año de nacimiento al año actual.
@@ -164,16 +154,12 @@
 
 ### 📝 Problema
 
-> [!IMPORTANT]
->
 > Un acuario necesita determinar cuántos litros o galones (eso lo decide el usuario) de agua caben en un acuario, pero solo dispone de una cinta métrica (en centímetros). Diseña un algoritmo para solucionar el problema.
 
 ---
 
 ### ✅ Solución
 
-> [!TIP]
->
 > Para resolver el problema, se utilizan como datos de entrada las dimensiones del acuario medidas en centímetros (largo, ancho y alto) y la unidad en la que el usuario desea obtener el resultado (litros o galones).
 >
 > Con estas medidas se calcula el volumen del acuario y se convierte a litros.
@@ -222,16 +208,12 @@
 
 ### 📝 Problema
 
-> [!IMPORTANT]
->
 > Realice un algoritmo para determinar cuánto se debe pagar por equis cantidad de lápices considerando que si son 1000 o más el costo es de $85 cada uno; de lo contrario, el precio es de $90.
 
 ---
 
 ### ✅ Solución
 
-> [!TIP]
->
 > Para resolver el problema, se solicita al usuario la cantidad de lápices que desea comprar.
 >
 > El algoritmo verifica si la cantidad es mayor o igual a 1000 unidades; en ese caso, asigna un precio de $85 por lápiz.
@@ -276,8 +258,7 @@
 
 ### 📝 Problema
 
-> [!IMPORTANT]
->
+
 > Un almacén de ropa tiene una promoción: por compras superiores a $250 000 se les aplicará un descuento de 15%, de caso contrario, sólo se aplicará un 8% de descuento.
 
 ---
@@ -322,8 +303,6 @@
 
 ### 📝 Problema
 
-> [!IMPORTANT]
->
 > El director de una escuela está organizando un viaje de estudios, y requiere determinar cuánto debe cobrar a cada alumno y cuánto debe pagar a la compañía de viajes por el servicio.
 
 ---
@@ -364,8 +343,7 @@
 
 ## 🎯 Fin de la Actividad
 
-⭐ Documento organizado para GitHub
-📊 Diagramas de flujo + análisis de algoritmos
-📘 Formato académico moderno
-
 </div>
+
+---
+
