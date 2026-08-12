@@ -273,7 +273,7 @@
 
 <div align="center">
 
-![Ej 3](./Imagenes/Diagrama4.png)
+![Ej 3](./Imagenes/Diagrama5.png)
 
 </div>
 
@@ -283,7 +283,7 @@
 
 | NOMBRE           | DEFINICIÓN        | TIPO   | UNIDAD |
 | ---------------- | ----------------- | ------ | ------ |
-| Cantidad_Lapices | Numero de lapices | entero | -      |
+| Total_compra | Valor en pesos maximo de compra | entero | $ |
 
 ---
 
@@ -292,6 +292,7 @@
 | NOMBRE     | DEFINICIÓN | TIPO     | UNIDAD |
 | ---------- | ---------- | -------- | ------ |
 | TotalPagar | -          | Flotante | $      |
+| Descuento | - | Flotante | $ |
 
 ---
 
