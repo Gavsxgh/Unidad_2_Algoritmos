@@ -265,7 +265,7 @@
 
 ### ✅ Solución
 
-*
+* La solución consiste en leer el valor total de la compra y verificar si supera los $250.000. Si la compra es mayor a esta cantidad, se aplica un descuento del 15%; en caso contrario, se aplica un descuento del 8%. Luego se calcula el valor del descuento y el total a pagar, mostrando ambos resultados al cliente.
 
 ---
 
@@ -292,7 +292,7 @@
 | NOMBRE     | DEFINICIÓN | TIPO     | UNIDAD |
 | ---------- | ---------- | -------- | ------ |
 | TotalPagar | -          | Flotante | $      |
-| Descuento | - | Flotante | $ |
+| Descuento | - | Flotante | % |
 
 ---
 
@@ -304,21 +304,20 @@
 
 ### 📝 Problema
 
-> El director de una escuela está organizando un viaje de estudios, y requiere determinar cuánto debe cobrar a cada alumno y cuánto debe pagar a la compañía de viajes por el servicio.
+> El director de una escuela está organizando un viaje de estudios, y requiere determinar cuánto debe cobrar a cada alumno y cuánto debe pagar a la compañía de viajes por el servicio. La forma de cobrar es la siguiente: si son 100 alumnos o más, el costo por cada alumno es de $65.00; de 50 a 99 alumnos, el costo es de $70.00, de 30 a 49, de $95.00, y si son menos de 30, el costo de la renta del autobús es de $4000.00, sin importar el número de alumnos.
 
 ---
 
 ### ✅ Solución
 
-*
-
+* La solución consiste en ingresar la cantidad de alumnos que participarán en el viaje y determinar el costo correspondiente según el rango de estudiantes. Si son 100 o más alumnos, cada uno paga $65; entre 50 y 99, pagan $70; entre 30 y 49, pagan $95; y si son menos de 30, el costo total del autobús es de $4.000, distribuyéndose entre todos los alumnos. Finalmente, se calcula el valor que debe pagar cada estudiante y el monto total que se entregará a la compañía de viajes.
 ---
 
 ### 🖼️ Diagrama de Flujo
 
 <div align="center">
 
-![Ej 4](./Imagenes/Diagrama4.png)
+![Ej 4](./Imagenes/Diagrama6.png)
 
 </div>
 
@@ -328,7 +327,8 @@
 
 | NOMBRE           | DEFINICIÓN        | TIPO   | UNIDAD |
 | ---------------- | ----------------- | ------ | ------ |
-| Cantidad_Lapices | Numero de lapices | entero | -      |
+| NA | Numero de Alumnos | entero | -      |
+
 
 ---
 
@@ -336,7 +336,8 @@
 
 | NOMBRE     | DEFINICIÓN | TIPO     | UNIDAD |
 | ---------- | ---------- | -------- | ------ |
-| TotalPagar | -          | Flotante | $      |
+| CxA | Costo x Alumno | Flotante | $      |
+| CT | CostoTotal | Flotante | $      |
 
 ---
 
@@ -347,4 +348,36 @@
 </div>
 
 ---
+<div align="center">
+
+# 🤖 Taller de Algoritmos 🤖
+
+</div>
+
+> Cada problema deberá resolverse empleando estructuras de control como condicionales y bucles, asegurando la correcta interpretación de requisitos y el diseño lógico del flujo de ejecución.
+
+---
+## Ejercicio con condicionales 
+
+### 🏳️ Planteamiento: Verificación de peso de despegue 🛩️
+* En una pista de pruebas de aeronaves, el sistema debe verificar si el peso total de la aeronave, incluyendo combustible y carga, supera el límite máximo
+  permitido para el despegue. Dependiendo del resultado, el sistema deberá indicar si la aeronave está lista para despegar o si debe reducir carga o combustible.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
