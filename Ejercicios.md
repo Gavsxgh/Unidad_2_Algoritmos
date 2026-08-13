@@ -174,7 +174,7 @@
 
 <div align="center">
 
-![Ej 1](./Imagenes/Diagrama3.png)
+![Ej 3](./Imagenes/Diagrama3.png)
 
 </div>
 
