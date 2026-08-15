@@ -22,7 +22,7 @@ Cada símbolo tiene un significado único. Gracias a esto, cualquier persona pue
 
 <div align="center">
 
-![Diagrama](./Imagenes/Algoritmo.png)
+![Diagrama](./Imagenes/Algoritmo.jpg)
 
 </div>
 
