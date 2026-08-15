@@ -360,12 +360,115 @@
 ## Ejercicio con condicionales 
 
 ### 🏳️ Planteamiento: Verificación de peso de despegue 🛩️
-* En una pista de pruebas de aeronaves, el sistema debe verificar si el peso total de la aeronave, incluyendo combustible y carga, supera el límite máximo
-  permitido para el despegue. Dependiendo del resultado, el sistema deberá indicar si la aeronave está lista para despegar o si debe reducir carga o combustible.
+* En una pista de pruebas de aeronaves, el sistema debe verificar si el peso total de la aeronave, incluyendo combustible y carga, supera el límite máximo permitido para el despegue. Dependiendo del resultado, el sistema deberá indicar si la aeronave está lista para despegar o si debe reducir carga o combustible.
+
+<div align="center">
+<table>
+<tr>
+<td>
+
+# 🛩️
+
+```
+    Definir pesoTotal, limiteMaximo Como Real
+
+    Imprimir "Ingrese el peso total de la aeronave:"
+    Leer pesoTotal
+
+    Imprimir "Ingrese el límite máximo permitido para el despegue:"
+    Leer limiteMaximo
+
+    Si pesoTotal <= limiteMaximo Entonces
+        Imprimir "La aeronave está lista para despegar."
+    Sino
+        Imprimir "La aeronave supera el límite permitido."
+        Imprimir "Debe reducir carga o combustible antes de despegar."
+    FinSi
+
+Fin
+```
+
+</td>
+</tr>
+</table>
+
+</div>
+
+---
+
+### 📥 Datos de Entrada
+
+| NOMBRE           | DEFINICIÓN        | TIPO   | UNIDAD |
+| ---------------- | ----------------- | ------ | ------ |
+| PesoTotal |  | entero | -      |
 
 
+---
+
+### 📤 Datos de Salida
+
+| NOMBRE     | DEFINICIÓN | TIPO     | UNIDAD |
+| ---------- | ---------- | -------- | ------ |
+| LimiteMaximo |   | Entero |       |
+
+---
+
+## Ejercicio con Bucles 
+
+### 🏳️ Planteamiento: Registro de altitudes de vuelo ✈️
+* Un sistema debe registrar la altitud de vuelo cada 10 minutos durante una hora y mostrar todas las mediciones al final.
+
+<div align="center">
+<table>
+<tr>
+<td>
+
+# ✈️
+
+```
+Definir altitud Como Real
+    Definir i Como Entero
+
+    Para i <- 1 Hasta 6 Hacer
+        Imprimir "Ingrese la altitud registrada en el minuto ", i * 10, ":"
+        Leer altitud
+        Imprimir "Altitud registrada: ", altitud, " metros"
+    FinPara
+
+Fin
+
+```
+
+</td>
+</tr>
+</table>
+
+</div>
+
+---
+
+### 📥 Datos de Entrada
+
+| NOMBRE           | DEFINICIÓN        | TIPO   | UNIDAD |
+| ---------------- | ----------------- | ------ | ------ |
+| Altitud |  | entero | -      |
 
 
+---
+
+### 📤 Datos de Salida
+
+| NOMBRE     | DEFINICIÓN | TIPO     | UNIDAD |
+| ---------- | ---------- | -------- | ------ |
+| todas las altitudes |   | Entero |       |
+
+---
+
+<div align="center">
+
+## 🎯 Fin del Repo
+
+</div>
 
 
 
